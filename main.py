@@ -4,6 +4,7 @@ import cv2
 import time
 from directkeys import PressKey, ReleaseKey, W, A, S, D
 
+# TODO: Identify ball, have car move only toward ball.
 
 def process_screen(sc_grab):
     """
